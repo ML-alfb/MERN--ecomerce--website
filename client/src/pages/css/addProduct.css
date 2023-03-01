@@ -1,0 +1,114 @@
+.add-product-form-container {
+  position: relative;
+  background-color: beige;
+  max-width: 55%;
+  width: 100%;
+  min-width: 50%;
+  height: 90%;
+  justify-content: space-between;
+  padding: 25px 15px;
+  box-shadow: 1px 1px 15px 0 white;
+  margin: 0 auto;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.grow {
+  flex-grow: 1;
+  max-width: 40%;
+  /* background-color: blueviolet; */
+}
+textarea {
+  max-width: 100%;
+  height: 100px;
+}
+
+.center {
+  justify-content: space-around;
+  align-items: center;
+}
+.product-form {
+  max-width: 60%;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  max-height: 100%;
+  position: relative;
+  /* background-color: rgb(35, 84, 85); */
+}
+.wrap {
+  flex-wrap: wrap;
+  max-width: 100%;
+  /* background-color: aquamarine; */
+  justify-content: space-between;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.image-size {
+  max-height: 80%;
+
+  background-color: rgb(221, 221, 221);
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+}
+.border-dash {
+  border: 2px dashed rgb(196, 195, 195);
+}
+button:focus {
+  border: none;
+}
+button {
+  border: none;
+}
+
+.fileInput {
+  height: 0.1px;
+  width: 0.1px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.flex-end {
+  height: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+/* .absulate {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+} */
+.fileInput-btn {
+  padding: 8px 12px;
+  background-color: rgb(131, 172, 174);
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.add-btn {
+  padding: 8px 12px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.poster-container {
+  max-height: 80%;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 1100px) {
+  .add-product-form-container {
+    max-width: 90%;
+  }
+}

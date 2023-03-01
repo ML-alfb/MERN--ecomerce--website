@@ -1,0 +1,8 @@
+.flex {
+  display: flex;
+}
+body {
+  max-width: 100vw;
+  background-color: rgb(251, 251, 239);
+  overflow-x: hidden;
+}

@@ -1,0 +1,126 @@
+header {
+  height: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgb(251, 251, 239);
+  box-shadow: 0 2px 2px 0px rgb(207, 205, 205);
+}
+
+nav {
+  height: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(251, 251, 239);
+}
+ul {
+  display: flex;
+}
+
+nav li {
+  padding: 5px 10px;
+  list-style: none;
+}
+nav li:hover {
+  background-color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/* nav .list {
+  position: relative;
+} */
+
+nav .list-menu {
+  display: none;
+  position: absolute;
+  top: 36px;
+  left: 0;
+
+  flex-direction: column;
+  background-color: rgb(251, 251, 239);
+  width: 150px;
+}
+nav .shopping-cart {
+  display: none;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  transform: translateX(-50%);
+  flex-direction: column;
+  background-color: rgb(251, 251, 239);
+  width: 300px;
+}
+nav .list:hover .list-menu {
+  display: block;
+}
+nav .list:hover .shopping-cart {
+  display: block;
+}
+
+nav .search-form-container {
+  width: 45%;
+}
+nav .search-form {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchInput {
+  padding: 6px 40px 6px 15px;
+  width: 100%;
+  margin: 0;
+  border: 1.5px solid rgba(245, 245, 220, 0.42);
+}
+.searchInput:focus {
+  border: 1.5px solid beige;
+}
+.search-btn {
+  position: absolute;
+  height: 90%;
+  right: 0;
+  top: 1px;
+  width: 50px;
+  transform: translateY(-11.5%);
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background-color: beige;
+}
+.search-btn:focus {
+  border: none;
+}
+
+.x {
+  stroke: darkblue;
+  fill: aqua;
+}
+.relative {
+  position: relative;
+}
+
+.countFav {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgb(246, 186, 186);
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  font-size: 10px;
+  text-align: center;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
